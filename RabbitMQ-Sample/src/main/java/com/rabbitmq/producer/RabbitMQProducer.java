@@ -27,6 +27,8 @@ public class RabbitMQProducer {
         LOGGER.info(String.format("Message sent -> %s", message));
         rabbitTemplate.convertAndSend(exchange, routingKey, message);
     }
+
+    /* adding a commit */
 	
 
 }
