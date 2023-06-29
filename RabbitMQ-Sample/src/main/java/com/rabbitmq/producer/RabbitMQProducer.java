@@ -31,6 +31,8 @@ public class RabbitMQProducer {
     /* adding a commit */
 
     /* adding another commit to check branch changes */
+
+    /* Comment for branch 2 */
 	
 
 }
