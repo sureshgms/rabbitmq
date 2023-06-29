@@ -14,5 +14,6 @@ public class RabbitMQConsumer {
     public void consume(String message){
         LOGGER.info(String.format("Received message -> %s", message));
     }
+    /* Consumer added */
 
 }
